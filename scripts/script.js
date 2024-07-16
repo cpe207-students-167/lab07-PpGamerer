@@ -97,7 +97,7 @@ resetBtn.onclick = () => {
   emailInput.value = "";
   passwordInput.value = "";
   passwordConfirmInput.value = "";
-  
+
   isFirstNameOk = false;
   isLastNameOk = false;
   isEmailOk = false;
@@ -118,5 +118,4 @@ resetBtn.onclick = () => {
 
   passwordConfirmInput.classList.remove("is-valid");
   passwordConfirmInput.classList.remove("is-invalid");
-
 }
