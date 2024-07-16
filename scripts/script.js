@@ -97,4 +97,26 @@ resetBtn.onclick = () => {
   emailInput.value = "";
   passwordInput.value = "";
   passwordConfirmInput.value = "";
+  
+  isFirstNameOk = false;
+  isLastNameOk = false;
+  isEmailOk = false;
+  isPasswordOk = false;
+  isPasswordConfirmOk = false;
+
+  firstNameInput.classList.remove("is-valid");
+  firstNameInput.classList.remove("is-invalid");
+
+  lastNameInput.classList.remove("is-valid");
+  lastNameInput.classList.remove("is-invalid");
+
+  emailInput.classList.remove("is-valid");
+  emailInput.classList.remove("is-invalid");
+
+  passwordInput.classList.remove("is-valid");
+  passwordInput.classList.remove("is-invalid");
+
+  passwordConfirmInput.classList.remove("is-valid");
+  passwordConfirmInput.classList.remove("is-invalid");
+
 }
